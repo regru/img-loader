@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/thetalecrafter/img-loader",
   "dependencies": {
-    "imagemin": "^5.2.0",
+    "imagemin": "^5.3.0",
     "imagemin-gifsicle": "^5.1.0",
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-optipng": "^5.2.0",
