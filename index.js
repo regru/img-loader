@@ -40,7 +40,7 @@ module.exports = function (content) {
 
   var callback = this.async()
   imagemin
-    .buffer(content, { use: use })
+    .buffer(Buffer.from(content), { use: use })
     .then(function (buffer) { callback(null, buffer) })
     .catch(function (error) { callback(error) })
 }
